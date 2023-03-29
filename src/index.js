@@ -4,7 +4,7 @@ const app = express();
 const router = express.Router();
 
 //Settingd
-//app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3000);
 
 //Listening
 app.listen(3000);
