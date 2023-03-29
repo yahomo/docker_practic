@@ -7,7 +7,7 @@ const router = express.Router();
 app.set('port', process.env.PORT || 3000);
 
 //Listening
-app.listen(3000);
+app.listen(https://acoustic-treatment-production.up.railway.app);
 console.log('server on port', 3000);
 
 
