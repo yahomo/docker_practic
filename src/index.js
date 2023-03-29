@@ -28,9 +28,9 @@ const users = [
 ]
 
 const usersRoute = router.get([users], (req, res) => {
-    res.json([users])
+    res.json(users)
 });
 
 app.use(express.json());
-app.use('/ominey', usersRoute);
+app.use('/https://acoustic-treatment-production.up.railway.app/', usersRoute);
 
