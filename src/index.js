@@ -27,7 +27,7 @@ const users = [
     }
 ]
 
-const usersRoute = router.get(users, (req, res) => {
+const usersRoute = router.get([users], (req, res) => {
     res.json(users)
 });
 
