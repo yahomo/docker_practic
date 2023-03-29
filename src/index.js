@@ -28,7 +28,7 @@ const users = [
 ]
 
 const usersRoute = router.get([users], (req, res) => {
-    res.json(users)
+    res.json([users])
 });
 
 app.use(express.json());
